@@ -19,6 +19,8 @@ Main Tests:
 
 OBS: Ensure there isn't excessive redundancy across the three layers. There isn't a single best test; the ideal lies in the combination of all.
 
+- ![Piramide](https://github.com/fabiolnh/automated-tests/blob/main/assets/Testes.png)
+
 ## Test Double / Patterns:
  - Stub: An object that returns a predefined answer. It provides a predefined object (the most commonly used). For example, you get the object (or interface) and define what it returns in each method. It overrides the methods, returning what you have defined.
  - Spy: It observes the execution to detect whether something that you wanted to happen has happened. For example, checking the methods in an object to see if they were called with specific parameters that you desired. Another example is verifying if a method was called one or more times. It records all the actions that occurred in the component, allowing you to perform assertions afterward.
